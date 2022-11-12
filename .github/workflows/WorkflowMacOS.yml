@@ -16,5 +16,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: Run a power shell command
-      run: $PSVersionTable
+      run:  $ver = $PSVersionTable.PSVersion
+            Write-Host $ver
+          
  
