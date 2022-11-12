@@ -16,6 +16,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: Run a power shell command
-      run: ./script1.ps1
+      run: Write-Host "Test power shell" 
+        ./script1.ps1
       shell: pwsh
  
