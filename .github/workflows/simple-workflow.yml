@@ -34,3 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      # Try and invoke and npm commant to install angular cli
+      - name: Install angular cli
+        run: npm i @angular/cli
+        
+      # Report our work is done
+      - name: Report work complete
+        run: echo Our work is done!
+      
