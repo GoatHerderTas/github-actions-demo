@@ -10,4 +10,11 @@ jobs:
     steps:
     - name: Run a simple command
       run: "echo hello mac"
+      
+  
+  PlayWithPowerShell:
+    runs-on: macos-latest
+    steps:
+    - name: Run a power shell command
+      run: $PSVersionTable
  
