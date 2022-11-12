@@ -16,6 +16,6 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: Run a power shell command
-      run:  $\Script1.ps1
-          
+      run: ./script1.ps1
+      shell: pwsh
  
