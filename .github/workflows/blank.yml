@@ -1,0 +1,13 @@
+name: TestForMac
+
+on: 
+  push:
+    branches: [main, master]
+  
+jobs:
+  Hello_Mac:
+    runs-on: macos-latest
+    steps:
+    - name: Run a simple command
+      run: "echo hello mac"
+ 
